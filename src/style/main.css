@@ -1,0 +1,45 @@
+:root {
+  --white: #fff;
+  --grey: #eee;
+  --blue: #2db7f5;
+}
+
+.header-title {
+  text-align: center;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.items-table-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.items-table-head-element {
+  background-color: var(--blue);
+}
+
+.items-table-element,
+.items-table-head-element {
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+tr:nth-child(even) { background: var(--grey) }
+tr:nth-child(odd) { background: var(--white) }
+
+.pagination {
+  float: right;
+  margin: 20px;
+}
+
+.left-align {
+  text-align: left;
+}
